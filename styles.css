@@ -11,6 +11,77 @@ body {
     flex-direction: column;
 }
 
+.header {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header > * {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav {
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.greeting {
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.half {
+    flex: 1;
+}
+
+.title-2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.greeting .text {
+    margin: 8px 0 16px;
+}
+
+.button {
+    padding: 8px 32px;
+    border-radius: 7px;
+    border: none;
+    background-color: #3882f6;
+    color: #fff;
+}
+
+.image {
+    align-self: stretch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, .3);
+}
+
 .main {
     flex: 1;
 }
