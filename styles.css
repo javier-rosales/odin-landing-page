@@ -121,6 +121,31 @@ body {
     text-align: center;
 }
 
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 0;
+}
+
+.quote__text,
+.quote__author {
+    max-width: 790px;
+    margin: 0 auto;
+}
+
+.quote__text {
+    margin-bottom: 8px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote__author {
+    text-align: right;
+    font-weight: 800;
+    color: #1f2937;
+}
+
 .footer {
     padding: 40px 0;
     text-align: center;
